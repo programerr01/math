@@ -41,3 +41,21 @@ func Test_Min(t *testing.T){
 	}
 }
 
+func Test_Factorial(t *testing.T){
+    sample := map[int]int{
+        0:1,
+        1:1,
+        2:2,
+        3:6,
+        4:24,
+        5:120,
+        6:720,
+
+    }
+    for i ,val := range sample {
+       if val != Factorial(i) {
+            t.Errorf("Factorial of %v is %v" , i , Factorial(i))
+        } 
+    } 
+}
+
