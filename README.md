@@ -30,3 +30,8 @@ func main() {
 
 # Contribution
 Add more relevent functions in this math library with detailed documentation.
+
+1. You should always first write a test for a function
+2. run the test so that it fails.  ``` go test ```
+3. Write the function to pass the test.
+
