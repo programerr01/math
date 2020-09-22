@@ -39,3 +39,12 @@ func Min(arr []int) int {
 
 	return min 
 }
+// Factorial function takes a int and return the factorial using Recursion
+func Factorial(i int ) int {
+    if i == 0 || i == 1 || i < 0 {
+        return 1
+    } else {
+        return i * Factorial(i-1)
+    }
+
+}
