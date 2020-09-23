@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package math
 
 /// Abs function takes any integer value and returns in absolute value.
@@ -10,7 +9,7 @@ func Abs(i int) uint {
 	}
 }
 
-// Max function takes any set of integers and return the maximum value.
+// Max function takes any set of number and return the maximum value.
 func Max(arr []float64) float64 {
 	max := arr[0]
 
@@ -23,7 +22,7 @@ func Max(arr []float64) float64 {
 	return max
 }
 
-// Min function takes any set of integers and return the minimu value.
+// Min function takes any set of number and return the minimu value.
 func Min(arr []float64) float64 {
 	min := arr[0]
 
