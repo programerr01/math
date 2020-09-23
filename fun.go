@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package math
 
 /// Abs function takes any integer value and returns in absolute value.
