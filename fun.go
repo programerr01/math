@@ -14,7 +14,7 @@ func Abs(i int) uint {
 
 
 // Max function takes any set of integers and return the maximum value.
-func Max(arr []int) int {
+func Max(arr []float64) float64 {
 	max := arr[0];
 
 	for i:=1; i < len(arr); i++ {
@@ -28,7 +28,7 @@ func Max(arr []int) int {
 
 
 // Min function takes any set of integers and return the minimu value.
-func Min(arr []int) int {
+func Min(arr []float64) float64 {
 	min := arr[0];
 
 	for i:=1; i < len(arr); i++ {
