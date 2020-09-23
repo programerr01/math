@@ -11,8 +11,8 @@ func Test_square_root(t *testing.T) {
 
     }
     for i , v := range sample {
-        if v != Square_root(i) {
-            t.Errorf("Prime of %v is %v" , i , Square_root(i))
+        if v != Sqrt(i) {
+            t.Errorf("Prime of %v is %v" , i , Sqrt(i))
 
         }
     }
