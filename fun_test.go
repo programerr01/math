@@ -3,7 +3,13 @@ package math
 import "testing"
 
 func Test_Abs(t *testing.T) {
-	sample := map[uint]int{11: 11, 1: -1, 0: 0, 2: -2, 3: -3, 5: -5, 121: -121, 343: 343, 342: 342, 1039232: 1039232, 324322: -324322}
+	sample := map[float64]float64{11: 11, 1: -1, 0: 0, 2: -2, 3: -3, 5: -5, 121: -121, 343: 343, 342: 342, 1039232: 1039232, 324322: -324322,
+		0.2:   -0.2,
+		0.023: -0.023,
+		0.022: 0.022,
+		323.1: 323.1,
+		323.2: -323.2,
+	}
 	for i, v := range sample {
 		if i != Abs(v) {
 			t.Errorf("Absolute of %v is %v", v, Abs(v))

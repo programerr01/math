@@ -1,11 +1,11 @@
 package math
 
-/// Abs function takes any integer value and returns in absolute value.
-func Abs(i int) uint {
+/// Abs function takes any number and returns in absolute value.
+func Abs(i float64) float64 {
 	if i < 0 {
-		return uint(i * -1)
+		return i * -1
 	} else {
-		return uint(i)
+		return i
 	}
 }
 
