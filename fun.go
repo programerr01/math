@@ -1,4 +1,8 @@
 package math
+//Constants
+
+const e = 2.718281828
+const pi =3.141592658
 
 /// Abs function takes any number and returns in absolute value.
 func Abs(i float64) float64 {
